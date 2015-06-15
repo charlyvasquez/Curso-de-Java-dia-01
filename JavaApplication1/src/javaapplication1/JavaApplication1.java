@@ -18,6 +18,8 @@ public class JavaApplication1 {
         for (jp1.contador = 0; jp1.contador < 10; jp1.contador++) {
             System.out.println("imprimiendo el contador \n \n" + jp1.contador);
         }
+        ClaseDos cd1 = new ClaseDos();
+        cd1.
     }
 
 }
