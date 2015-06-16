@@ -11,15 +11,17 @@ package javaapplication1;
  */
 public class JavaApplication1 {
 
-    private int contador;
+    private int contador, contador2;
 
     public static void main(String[] args) {
         JavaApplication1 jp1 = new JavaApplication1();
         for (jp1.contador = 0; jp1.contador < 10; jp1.contador++) {
             System.out.println("imprimiendo el contador \n \n" + jp1.contador);
         }
-        ClaseDos cd1 = new ClaseDos();
-        cd1.
+        ClaseTres cd1 = new ClaseTres();
+        for (cd1.contador2 = 0; cd1.contador2 < 10; cd1.contador2++) {
+            
+        }
     }
 
 }
